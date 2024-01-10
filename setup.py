@@ -18,5 +18,5 @@ def get_version():
 setup(
     name='pytorch-quantization',
     version=get_version(),
-    packages=find_packages(where="./pytorch_quantization")
+    packages=find_packages()
 )
