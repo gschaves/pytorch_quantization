@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION_FILE = "version.py"
+VERSION_FILE = "version.txt"
 INIT_FILE = "pytorch_quantization/__init__.py"
 
 def get_version():
